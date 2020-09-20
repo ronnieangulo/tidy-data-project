@@ -55,8 +55,6 @@ dfMeanSd$activitytype <- apply(subset(dfMeanSd, select = activitytype),2,functio
                           "3"="WALKING_DOWNSTAIRS", "4"="SITTING", 
                           "5"="STANDING", "6"="LAYING")})
 
-print(head(dfMeanSd,1))
-
 ## Fourth objective: Appropriately label the data set with descriptive variable names.
 dfColumns <- colnames(dfMeanSd)
 
