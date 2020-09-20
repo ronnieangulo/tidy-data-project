@@ -4,11 +4,9 @@ This repo was created to finish the final assignment of Getting and Cleaning dat
 
 You should download and run the source file run_analysis.R into your working directory to generate the tidy data file "tidy_data.txt".
 
-Description of data
-The data used in this project represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
+Description of data: The data used in this project represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
-Code
-The code implemented combines data extracted from the train and test datasets and creates a new dataset with the average of each variable for each activity and each subject.
+Code: The code implemented combines data extracted from the train and test datasets and creates a new dataset with the average of each variable for each activity and each subject.
 
 The code was written based on the instructions provided for this assignment:
 1. Merge the training and the test sets to create one data set. Use command rbind to combine training and test set
