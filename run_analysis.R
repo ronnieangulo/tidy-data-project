@@ -49,7 +49,6 @@ dfMeanSd <- (grepl("activitytype" , colcomplete) | grepl("subject" , colcomplete
 dfMeanSd <- dfAll[ , dfMeanSd == TRUE]
 
 ## Third objective: Use descriptive activity names to name the activities in the data set
-## dfMeanSd <- merge(dfMeanSd, dfActivity, by="activitytype", all.x=TRUE)
 
 dfMeanSd$activitytype <- apply(subset(dfMeanSd, select = activitytype),2,function(x) 
                          {x <- recode(x, "1"="WALKING", "2"="WALKING_UPSTAIRS", 
