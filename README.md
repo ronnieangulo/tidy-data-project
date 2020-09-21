@@ -2,8 +2,6 @@
 Getting and Cleaning Data Course Project
 This repo was created to finish the final assignment of Getting and Cleaning data course.
 
-You should download and run the source file run_analysis.R into your working directory to generate the tidy data file "tidy_data.txt".
-
 Description of data: The data used in this project represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
 Code: The code implemented combines data extracted from the train and test datasets and creates a new dataset with the average of each variable for each activity and each subject.
